@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family:  'Poppins', sans-serif;
+
+
+}
+
+
+
+.heading {
+    color: #1DB9C3;
+ text-align: center;   
+
+}
+
+/* main div style */
+.tab{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 70vh;
+    font-size: 10px;
+}
+/* end */
+
+
+/* Button and its div style */
+.btnmain{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top:-3%;
+    margin-left: 6%;
+}
+.btnmain a{
+    cursor: pointer; 
+    text-decoration: none;
+    color: #000000;
+    border: 1px solid #1DB9C3;
+margin-left: -6%;
+    
+}
+.btnmain a:hover{
+    color: #1DB9C3;
+}
+/* end */
+
+
+
+
+
+/* Icons style */
+.icons{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+
+.icons i{
+   color: #000000;
+   margin: 0 5px;
+   font-size: 20px;
+   text-decoration: none;
+   border: none;
+
+}
+
+.f:hover{
+    color: royalblue !important;
+}
+.in:hover{
+    background: rgba(223, 70, 177, 0.884) !important;
+
+}
+.gi:hover{
+color: rgba(0, 0, 0, 0.356);
+}
+/* end */
+
+
+
+/* Footer style */
+.foot{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 4%;
+    color: #1DB9C3;
+}
+/* end */
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 600px) {
+    .btnmain{
+        margin-top: -25% !important;
+        margin-left: 5%;
+    }
+    .heading{
+       
+        margin-bottom: -10%;
+    }
+    .foot{
+        margin-top: 30% !important;
+    }
+}
+
+ @media only screen and (max-width: 599px) {
+.btnmain{
+    margin-top: -8%;
+}
+.tab{
+    margin-top: -5%;
+}
+.heading{
+    margin-top: -0% !important;
+}
+}
